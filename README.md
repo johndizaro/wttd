@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/johndizaro/wttd.svg?branch=master)](https://travis-ci.org/johndizaro/wttd)
+
+
 #EVENTEX
 
 Sistema de Eventos encomendado pela morena 
@@ -7,8 +10,8 @@ Sistema de Eventos encomendado pela morena
 1. Clone o repositorio
 2. Crie um venv com python 3.5
 3. Ative o virtualenv
-4. Instale s dependencias
-5. Configure as sinstancias com .en
+4. Instale as dependencias
+5. Configure as instancias com .env
 6. Execute os testes.
 
 ```console
@@ -23,11 +26,11 @@ python manage test
 ## COMO FAZER UM DEPLOY
 
 1. Crie uma instancia no Heroku
-2. Envie as configuraçoes para o Heroku
+2. Envie as configurações para o Heroku
 3. Defina uma SECRE_KEY para a instancia
 4. Defina DEBUG=False
-5. Configure o servico de email
-6. Envie o codigof para o Heroku
+5. Configure o serviço de email
+6. Envie o codigo para o Heroku
 
 ```console
 heroku create minhainstancia
